@@ -3,15 +3,15 @@
 ## To run the program, all together
 1. Download the zip file and extract it.
 2. Open the terminal and navigate to the folder where the files are extracted.
-3. Simply, run `./test.sh" command`
+3. Simply, run `./test.sh` command
 
 ## To Launch GUI on it own
 1. Navigate to the folder: *"Actix_Backend"*
 2. Run the command `cargo run` for the backend of the GUI to render the data.
 
 1. To run the GUI with the backend, open another terminal and navigate to the folder:*"GUI/lpm_gui"*
-2. Run the command `npm install" to install the dependencies`.
-3. Run the command `npm start" to start the GUI`.
+2. Run the command `npm install` to install the dependencies.
+3. Run the command `npm start` to start the GUI.
 4. Open the browser and go to *"localhost:3000"* to view the GUI.
 
 ## To Run the TUI on its own
