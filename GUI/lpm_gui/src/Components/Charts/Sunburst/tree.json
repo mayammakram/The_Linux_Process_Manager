@@ -1,0 +1,1733 @@
+{
+    "0": {
+      "1": { "pid": 1, "name": "systemd", "parent_id": 0, "memory": 11844 },
+      "2": { "pid": 2, "name": "kthreadd", "parent_id": 0, "memory": 0 }
+    },
+    "1": {
+      "313": {
+        "pid": 313,
+        "name": "systemd-journal",
+        "parent_id": 1,
+        "memory": 22576
+      },
+      "344": {
+        "pid": 344,
+        "name": "systemd-udevd",
+        "parent_id": 1,
+        "memory": 7216
+      },
+      "570": {
+        "pid": 570,
+        "name": "systemd-oomd",
+        "parent_id": 1,
+        "memory": 6036
+      },
+      "571": {
+        "pid": 571,
+        "name": "systemd-resolve",
+        "parent_id": 1,
+        "memory": 18032
+      },
+      "572": {
+        "pid": 572,
+        "name": "systemd-timesyn",
+        "parent_id": 1,
+        "memory": 6352
+      },
+      "757": {
+        "pid": 757,
+        "name": "accounts-daemon",
+        "parent_id": 1,
+        "memory": 7892
+      },
+      "761": { "pid": 761, "name": "acpid", "parent_id": 1, "memory": 1136 },
+      "780": {
+        "pid": 780,
+        "name": "avahi-daemon",
+        "parent_id": 1,
+        "memory": 3280
+      },
+      "785": { "pid": 785, "name": "bluetoothd", "parent_id": 1, "memory": 4876 },
+      "787": { "pid": 787, "name": "cron", "parent_id": 1, "memory": 3008 },
+      "790": {
+        "pid": 790,
+        "name": "dbus-daemon",
+        "parent_id": 1,
+        "memory": 6484
+      },
+      "793": {
+        "pid": 793,
+        "name": "NetworkManager",
+        "parent_id": 1,
+        "memory": 18708
+      },
+      "803": {
+        "pid": 803,
+        "name": "iio-sensor-prox",
+        "parent_id": 1,
+        "memory": 6844
+      },
+      "805": { "pid": 805, "name": "irqbalance", "parent_id": 1, "memory": 3828 },
+      "809": { "pid": 809, "name": "polkitd", "parent_id": 1, "memory": 10644 },
+      "812": {
+        "pid": 812,
+        "name": "power-profiles-",
+        "parent_id": 1,
+        "memory": 7404
+      },
+      "815": { "pid": 815, "name": "rsyslogd", "parent_id": 1, "memory": 5384 },
+      "821": { "pid": 821, "name": "snapd", "parent_id": 1, "memory": 28876 },
+      "824": {
+        "pid": 824,
+        "name": "switcheroo-cont",
+        "parent_id": 1,
+        "memory": 6572
+      },
+      "832": {
+        "pid": 832,
+        "name": "systemd-logind",
+        "parent_id": 1,
+        "memory": 7940
+      },
+      "833": { "pid": 833, "name": "thermald", "parent_id": 1, "memory": 9168 },
+      "838": { "pid": 838, "name": "udisksd", "parent_id": 1, "memory": 12404 },
+      "839": {
+        "pid": 839,
+        "name": "wpa_supplicant",
+        "parent_id": 1,
+        "memory": 11204
+      },
+      "947": {
+        "pid": 947,
+        "name": "ModemManager",
+        "parent_id": 1,
+        "memory": 10204
+      },
+      "948": { "pid": 948, "name": "boltd", "parent_id": 1, "memory": 7568 },
+      "952": { "pid": 952, "name": "cupsd", "parent_id": 1, "memory": 13684 },
+      "954": { "pid": 954, "name": "dockerd", "parent_id": 1, "memory": 50528 },
+      "1021": {
+        "pid": 1021,
+        "name": "unattended-upgr",
+        "parent_id": 1,
+        "memory": 21968
+      },
+      "1100": { "pid": 1100, "name": "gdm3", "parent_id": 1, "memory": 8988 },
+      "1109": {
+        "pid": 1109,
+        "name": "nvidia-persiste",
+        "parent_id": 1,
+        "memory": 1696
+      },
+      "1125": { "pid": 1125, "name": "systemd", "parent_id": 1, "memory": 10652 },
+      "1136": { "pid": 1136, "name": "upowerd", "parent_id": 1, "memory": 9292 },
+      "1190": {
+        "pid": 1190,
+        "name": "gnome-keyring-d",
+        "parent_id": 1,
+        "memory": 7608
+      },
+      "1199": {
+        "pid": 1199,
+        "name": "rtkit-daemon",
+        "parent_id": 1,
+        "memory": 1532
+      },
+      "1713": {
+        "pid": 1713,
+        "name": "packagekitd",
+        "parent_id": 1,
+        "memory": 41536
+      },
+      "1789": {
+        "pid": 1789,
+        "name": "cups-browsed",
+        "parent_id": 1,
+        "memory": 11004
+      },
+      "1792": {
+        "pid": 1792,
+        "name": "kerneloops",
+        "parent_id": 1,
+        "memory": 456
+      },
+      "1794": {
+        "pid": 1794,
+        "name": "kerneloops",
+        "parent_id": 1,
+        "memory": 460
+      },
+      "2001": { "pid": 2001, "name": "colord", "parent_id": 1, "memory": 13076 },
+      "2419": { "pid": 2419, "name": "fwupd", "parent_id": 1, "memory": 69996 }
+    },
+    "2": {
+      "3": { "pid": 3, "name": "rcu_gp", "parent_id": 2, "memory": 0 },
+      "4": { "pid": 4, "name": "rcu_par_gp", "parent_id": 2, "memory": 0 },
+      "5": { "pid": 5, "name": "slub_flushwq", "parent_id": 2, "memory": 0 },
+      "6": { "pid": 6, "name": "netns", "parent_id": 2, "memory": 0 },
+      "8": {
+        "pid": 8,
+        "name": "kworker/0:0H-events_highpri",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "10": { "pid": 10, "name": "mm_percpu_wq", "parent_id": 2, "memory": 0 },
+      "11": {
+        "pid": 11,
+        "name": "rcu_tasks_kthread",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "12": {
+        "pid": 12,
+        "name": "rcu_tasks_rude_kthread",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "13": {
+        "pid": 13,
+        "name": "rcu_tasks_trace_kthread",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "14": { "pid": 14, "name": "ksoftirqd/0", "parent_id": 2, "memory": 0 },
+      "15": { "pid": 15, "name": "rcu_preempt", "parent_id": 2, "memory": 0 },
+      "16": { "pid": 16, "name": "migration/0", "parent_id": 2, "memory": 0 },
+      "17": { "pid": 17, "name": "idle_inject/0", "parent_id": 2, "memory": 0 },
+      "19": { "pid": 19, "name": "cpuhp/0", "parent_id": 2, "memory": 0 },
+      "20": { "pid": 20, "name": "cpuhp/1", "parent_id": 2, "memory": 0 },
+      "21": { "pid": 21, "name": "idle_inject/1", "parent_id": 2, "memory": 0 },
+      "22": { "pid": 22, "name": "migration/1", "parent_id": 2, "memory": 0 },
+      "23": { "pid": 23, "name": "ksoftirqd/1", "parent_id": 2, "memory": 0 },
+      "25": {
+        "pid": 25,
+        "name": "kworker/1:0H-events_highpri",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "26": { "pid": 26, "name": "cpuhp/2", "parent_id": 2, "memory": 0 },
+      "27": { "pid": 27, "name": "idle_inject/2", "parent_id": 2, "memory": 0 },
+      "28": { "pid": 28, "name": "migration/2", "parent_id": 2, "memory": 0 },
+      "29": { "pid": 29, "name": "ksoftirqd/2", "parent_id": 2, "memory": 0 },
+      "31": {
+        "pid": 31,
+        "name": "kworker/2:0H-events_highpri",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "32": { "pid": 32, "name": "cpuhp/3", "parent_id": 2, "memory": 0 },
+      "33": { "pid": 33, "name": "idle_inject/3", "parent_id": 2, "memory": 0 },
+      "34": { "pid": 34, "name": "migration/3", "parent_id": 2, "memory": 0 },
+      "35": { "pid": 35, "name": "ksoftirqd/3", "parent_id": 2, "memory": 0 },
+      "37": {
+        "pid": 37,
+        "name": "kworker/3:0H-events_highpri",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "38": { "pid": 38, "name": "cpuhp/4", "parent_id": 2, "memory": 0 },
+      "39": { "pid": 39, "name": "idle_inject/4", "parent_id": 2, "memory": 0 },
+      "40": { "pid": 40, "name": "migration/4", "parent_id": 2, "memory": 0 },
+      "41": { "pid": 41, "name": "ksoftirqd/4", "parent_id": 2, "memory": 0 },
+      "43": {
+        "pid": 43,
+        "name": "kworker/4:0H-events_highpri",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "44": { "pid": 44, "name": "cpuhp/5", "parent_id": 2, "memory": 0 },
+      "45": { "pid": 45, "name": "idle_inject/5", "parent_id": 2, "memory": 0 },
+      "46": { "pid": 46, "name": "migration/5", "parent_id": 2, "memory": 0 },
+      "47": { "pid": 47, "name": "ksoftirqd/5", "parent_id": 2, "memory": 0 },
+      "49": {
+        "pid": 49,
+        "name": "kworker/5:0H-events_highpri",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "50": { "pid": 50, "name": "cpuhp/6", "parent_id": 2, "memory": 0 },
+      "51": { "pid": 51, "name": "idle_inject/6", "parent_id": 2, "memory": 0 },
+      "52": { "pid": 52, "name": "migration/6", "parent_id": 2, "memory": 0 },
+      "53": { "pid": 53, "name": "ksoftirqd/6", "parent_id": 2, "memory": 0 },
+      "55": {
+        "pid": 55,
+        "name": "kworker/6:0H-events_highpri",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "56": { "pid": 56, "name": "cpuhp/7", "parent_id": 2, "memory": 0 },
+      "57": { "pid": 57, "name": "idle_inject/7", "parent_id": 2, "memory": 0 },
+      "58": { "pid": 58, "name": "migration/7", "parent_id": 2, "memory": 0 },
+      "59": { "pid": 59, "name": "ksoftirqd/7", "parent_id": 2, "memory": 0 },
+      "61": {
+        "pid": 61,
+        "name": "kworker/7:0H-events_highpri",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "62": { "pid": 62, "name": "kdevtmpfs", "parent_id": 2, "memory": 0 },
+      "63": { "pid": 63, "name": "inet_frag_wq", "parent_id": 2, "memory": 0 },
+      "64": { "pid": 64, "name": "kauditd", "parent_id": 2, "memory": 0 },
+      "65": { "pid": 65, "name": "khungtaskd", "parent_id": 2, "memory": 0 },
+      "66": { "pid": 66, "name": "oom_reaper", "parent_id": 2, "memory": 0 },
+      "68": { "pid": 68, "name": "writeback", "parent_id": 2, "memory": 0 },
+      "69": { "pid": 69, "name": "kcompactd0", "parent_id": 2, "memory": 0 },
+      "71": { "pid": 71, "name": "ksmd", "parent_id": 2, "memory": 0 },
+      "72": { "pid": 72, "name": "khugepaged", "parent_id": 2, "memory": 0 },
+      "73": { "pid": 73, "name": "kintegrityd", "parent_id": 2, "memory": 0 },
+      "74": { "pid": 74, "name": "kblockd", "parent_id": 2, "memory": 0 },
+      "75": { "pid": 75, "name": "blkcg_punt_bio", "parent_id": 2, "memory": 0 },
+      "76": { "pid": 76, "name": "tpm_dev_wq", "parent_id": 2, "memory": 0 },
+      "77": { "pid": 77, "name": "ata_sff", "parent_id": 2, "memory": 0 },
+      "78": { "pid": 78, "name": "md", "parent_id": 2, "memory": 0 },
+      "79": { "pid": 79, "name": "edac-poller", "parent_id": 2, "memory": 0 },
+      "80": { "pid": 80, "name": "devfreq_wq", "parent_id": 2, "memory": 0 },
+      "82": { "pid": 82, "name": "watchdogd", "parent_id": 2, "memory": 0 },
+      "85": {
+        "pid": 85,
+        "name": "kworker/5:1H-kblockd",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "87": { "pid": 87, "name": "kswapd0", "parent_id": 2, "memory": 0 },
+      "88": {
+        "pid": 88,
+        "name": "ecryptfs-kthread",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "94": { "pid": 94, "name": "kthrotld", "parent_id": 2, "memory": 0 },
+      "101": {
+        "pid": 101,
+        "name": "irq/123-pciehp",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "104": {
+        "pid": 104,
+        "name": "acpi_thermal_pm",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "105": { "pid": 105, "name": "xenbus_probe", "parent_id": 2, "memory": 0 },
+      "106": {
+        "pid": 106,
+        "name": "vfio-irqfd-clea",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "107": { "pid": 107, "name": "mld", "parent_id": 2, "memory": 0 },
+      "108": {
+        "pid": 108,
+        "name": "kworker/1:1H-kblockd",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "109": { "pid": 109, "name": "ipv6_addrconf", "parent_id": 2, "memory": 0 },
+      "114": { "pid": 114, "name": "kstrp", "parent_id": 2, "memory": 0 },
+      "120": { "pid": 120, "name": "zswap-shrink", "parent_id": 2, "memory": 0 },
+      "121": {
+        "pid": 121,
+        "name": "kworker/u17:0-rb_allocator",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "167": {
+        "pid": 167,
+        "name": "charger_manager",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "189": {
+        "pid": 189,
+        "name": "kworker/0:1H-kblockd",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "221": {
+        "pid": 221,
+        "name": "kworker/4:1H-kblockd",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "227": {
+        "pid": 227,
+        "name": "kworker/7:1H-kblockd",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "229": {
+        "pid": 229,
+        "name": "irq/37-CUST0000:00",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "232": {
+        "pid": 232,
+        "name": "irq/162-DLL0945:00",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "240": { "pid": 240, "name": "nvme-wq", "parent_id": 2, "memory": 0 },
+      "241": { "pid": 241, "name": "nvme-reset-wq", "parent_id": 2, "memory": 0 },
+      "242": {
+        "pid": 242,
+        "name": "nvme-delete-wq",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "243": {
+        "pid": 243,
+        "name": "kworker/2:1H-kblockd",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "244": {
+        "pid": 244,
+        "name": "kworker/6:1H-kblockd",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "245": {
+        "pid": 245,
+        "name": "kworker/3:1H-kblockd",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "273": {
+        "pid": 273,
+        "name": "jbd2/nvme0n1p7-8",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "274": {
+        "pid": 274,
+        "name": "ext4-rsv-conver",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "470": { "pid": 470, "name": "cfg80211", "parent_id": 2, "memory": 0 },
+      "477": {
+        "pid": 477,
+        "name": "irq/194-iwlwifi:default_queue",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "478": {
+        "pid": 478,
+        "name": "irq/195-iwlwifi:queue_1",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "479": {
+        "pid": 479,
+        "name": "irq/196-iwlwifi:queue_2",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "480": {
+        "pid": 480,
+        "name": "irq/197-iwlwifi:queue_3",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "481": {
+        "pid": 481,
+        "name": "irq/198-iwlwifi:queue_4",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "482": {
+        "pid": 482,
+        "name": "irq/199-iwlwifi:queue_5",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "483": {
+        "pid": 483,
+        "name": "irq/200-iwlwifi:queue_6",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "484": {
+        "pid": 484,
+        "name": "irq/201-iwlwifi:queue_7",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "485": {
+        "pid": 485,
+        "name": "irq/202-iwlwifi:queue_8",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "486": {
+        "pid": 486,
+        "name": "irq/203-iwlwifi:exception",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "498": {
+        "pid": 498,
+        "name": "kworker/u17:2-rb_allocator",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "585": { "pid": 585, "name": "card0-crtc0", "parent_id": 2, "memory": 0 },
+      "586": { "pid": 586, "name": "card0-crtc1", "parent_id": 2, "memory": 0 },
+      "587": { "pid": 587, "name": "card0-crtc2", "parent_id": 2, "memory": 0 },
+      "588": { "pid": 588, "name": "card0-crtc3", "parent_id": 2, "memory": 0 },
+      "599": { "pid": 599, "name": "cryptd", "parent_id": 2, "memory": 0 },
+      "618": { "pid": 618, "name": "nv_queue", "parent_id": 2, "memory": 0 },
+      "619": { "pid": 619, "name": "nv_queue", "parent_id": 2, "memory": 0 },
+      "678": {
+        "pid": 678,
+        "name": "nvidia-modeset/kthread_q",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "679": {
+        "pid": 679,
+        "name": "nvidia-modeset/deferred_close_kthread_q",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "688": {
+        "pid": 688,
+        "name": "irq/205-nvidia",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "690": { "pid": 690, "name": "nv_queue", "parent_id": 2, "memory": 0 },
+      "726": {
+        "pid": 726,
+        "name": "irq/206-AudioDSP",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "891": {
+        "pid": 891,
+        "name": "USBC000:00-con0",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "1098": {
+        "pid": 1098,
+        "name": "UVM global queue",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "1099": {
+        "pid": 1099,
+        "name": "UVM deferred release queue",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "1101": {
+        "pid": 1101,
+        "name": "UVM Tools Event Queue",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "1300": { "pid": 1300, "name": "krfcommd", "parent_id": 2, "memory": 0 },
+      "2380": {
+        "pid": 2380,
+        "name": "bpfilter_umh",
+        "parent_id": 2,
+        "memory": 940
+      },
+      "17570": {
+        "pid": 17570,
+        "name": "kworker/1:0-mm_percpu_wq",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "19146": {
+        "pid": 19146,
+        "name": "kworker/4:2-cgroup_destroy",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "22094": {
+        "pid": 22094,
+        "name": "kworker/2:0-mm_percpu_wq",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "22377": {
+        "pid": 22377,
+        "name": "kworker/0:0-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "22776": {
+        "pid": 22776,
+        "name": "kworker/3:2-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "22818": {
+        "pid": 22818,
+        "name": "kworker/6:1-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "22851": {
+        "pid": 22851,
+        "name": "kworker/7:2-mm_percpu_wq",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "23661": {
+        "pid": 23661,
+        "name": "kworker/5:3-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "23674": {
+        "pid": 23674,
+        "name": "kworker/u16:19-ext4-rsv-conversion",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "23678": {
+        "pid": 23678,
+        "name": "kworker/u16:23-flush-259:0",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "23723": {
+        "pid": 23723,
+        "name": "irq/173-mei_me",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "23749": { "pid": 23749, "name": "nvidia", "parent_id": 2, "memory": 0 },
+      "23771": {
+        "pid": 23771,
+        "name": "kworker/3:0-inet_frag_wq",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "24138": {
+        "pid": 24138,
+        "name": "kworker/7:0-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "24244": {
+        "pid": 24244,
+        "name": "kworker/4:0-mm_percpu_wq",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "24315": {
+        "pid": 24315,
+        "name": "kworker/u16:1-flush-259:0",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "24447": {
+        "pid": 24447,
+        "name": "kworker/0:2-cgroup_destroy",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "24868": {
+        "pid": 24868,
+        "name": "kworker/5:1-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "25348": {
+        "pid": 25348,
+        "name": "kworker/6:0-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "25366": {
+        "pid": 25366,
+        "name": "kworker/1:1-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "25441": {
+        "pid": 25441,
+        "name": "kworker/2:2-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "25542": {
+        "pid": 25542,
+        "name": "kworker/0:1",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "25543": {
+        "pid": 25543,
+        "name": "kworker/0:3-events",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "25544": {
+        "pid": 25544,
+        "name": "kworker/3:1-mm_percpu_wq",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "25545": {
+        "pid": 25545,
+        "name": "kworker/4:1",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "25903": {
+        "pid": 25903,
+        "name": "kworker/5:0-mm_percpu_wq",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "27431": {
+        "pid": 27431,
+        "name": "kworker/u16:0-events_unbound",
+        "parent_id": 2,
+        "memory": 0
+      },
+      "27472": {
+        "pid": 27472,
+        "name": "kworker/2:1-events",
+        "parent_id": 2,
+        "memory": 0
+      }
+    },
+    "780": {
+      "848": {
+        "pid": 848,
+        "name": "avahi-daemon",
+        "parent_id": 780,
+        "memory": 336
+      }
+    },
+    "954": {
+      "2078": {
+        "pid": 2078,
+        "name": "containerd",
+        "parent_id": 954,
+        "memory": 35796
+      }
+    },
+    "1100": {
+      "1112": {
+        "pid": 1112,
+        "name": "gdm-session-wor",
+        "parent_id": 1100,
+        "memory": 10612
+      }
+    },
+    "1112": {
+      "1207": {
+        "pid": 1207,
+        "name": "gdm-x-session",
+        "parent_id": 1112,
+        "memory": 6152
+      }
+    },
+    "1125": {
+      "1126": {
+        "pid": 1126,
+        "name": "(sd-pam)",
+        "parent_id": 1125,
+        "memory": 4320
+      },
+      "1168": {
+        "pid": 1168,
+        "name": "pipewire",
+        "parent_id": 1125,
+        "memory": 6568
+      },
+      "1172": {
+        "pid": 1172,
+        "name": "pipewire-media-",
+        "parent_id": 1125,
+        "memory": 6204
+      },
+      "1178": {
+        "pid": 1178,
+        "name": "pulseaudio",
+        "parent_id": 1125,
+        "memory": 24792
+      },
+      "1215": {
+        "pid": 1215,
+        "name": "dbus-daemon",
+        "parent_id": 1125,
+        "memory": 6120
+      },
+      "1221": {
+        "pid": 1221,
+        "name": "xdg-document-po",
+        "parent_id": 1125,
+        "memory": 7308
+      },
+      "1222": { "pid": 1222, "name": "gvfsd", "parent_id": 1125, "memory": 8204 },
+      "1228": {
+        "pid": 1228,
+        "name": "xdg-permission-",
+        "parent_id": 1125,
+        "memory": 6420
+      },
+      "1233": {
+        "pid": 1233,
+        "name": "gvfsd-fuse",
+        "parent_id": 1125,
+        "memory": 6336
+      },
+      "1292": {
+        "pid": 1292,
+        "name": "tracker-miner-f",
+        "parent_id": 1125,
+        "memory": 23864
+      },
+      "1312": {
+        "pid": 1312,
+        "name": "gvfs-udisks2-vo",
+        "parent_id": 1125,
+        "memory": 9772
+      },
+      "1326": {
+        "pid": 1326,
+        "name": "gvfs-afc-volume",
+        "parent_id": 1125,
+        "memory": 8184
+      },
+      "1331": {
+        "pid": 1331,
+        "name": "gvfs-mtp-volume",
+        "parent_id": 1125,
+        "memory": 6396
+      },
+      "1335": {
+        "pid": 1335,
+        "name": "gvfs-gphoto2-vo",
+        "parent_id": 1125,
+        "memory": 6496
+      },
+      "1347": {
+        "pid": 1347,
+        "name": "gvfs-goa-volume",
+        "parent_id": 1125,
+        "memory": 7060
+      },
+      "1358": {
+        "pid": 1358,
+        "name": "goa-daemon",
+        "parent_id": 1125,
+        "memory": 60352
+      },
+      "1367": {
+        "pid": 1367,
+        "name": "goa-identity-se",
+        "parent_id": 1125,
+        "memory": 14520
+      },
+      "1497": {
+        "pid": 1497,
+        "name": "at-spi-bus-laun",
+        "parent_id": 1125,
+        "memory": 8064
+      },
+      "1519": {
+        "pid": 1519,
+        "name": "gnome-session-c",
+        "parent_id": 1125,
+        "memory": 5140
+      },
+      "1531": {
+        "pid": 1531,
+        "name": "gnome-session-b",
+        "parent_id": 1125,
+        "memory": 17404
+      },
+      "1554": {
+        "pid": 1554,
+        "name": "gnome-shell",
+        "parent_id": 1125,
+        "memory": 326248
+      },
+      "1611": {
+        "pid": 1611,
+        "name": "at-spi2-registr",
+        "parent_id": 1125,
+        "memory": 7924
+      },
+      "1645": {
+        "pid": 1645,
+        "name": "gnome-shell-cal",
+        "parent_id": 1125,
+        "memory": 21208
+      },
+      "1651": {
+        "pid": 1651,
+        "name": "evolution-sourc",
+        "parent_id": 1125,
+        "memory": 31608
+      },
+      "1663": {
+        "pid": 1663,
+        "name": "dconf-service",
+        "parent_id": 1125,
+        "memory": 6252
+      },
+      "1666": {
+        "pid": 1666,
+        "name": "gvfsd-metadata",
+        "parent_id": 1125,
+        "memory": 7084
+      },
+      "1676": {
+        "pid": 1676,
+        "name": "evolution-calen",
+        "parent_id": 1125,
+        "memory": 56536
+      },
+      "1725": {
+        "pid": 1725,
+        "name": "evolution-addre",
+        "parent_id": 1125,
+        "memory": 27404
+      },
+      "1802": { "pid": 1802, "name": "gjs", "parent_id": 1125, "memory": 26596 },
+      "1818": {
+        "pid": 1818,
+        "name": "xdg-desktop-por",
+        "parent_id": 1125,
+        "memory": 14112
+      },
+      "1822": {
+        "pid": 1822,
+        "name": "xdg-desktop-por",
+        "parent_id": 1125,
+        "memory": 86740
+      },
+      "1829": { "pid": 1829, "name": "sh", "parent_id": 1125, "memory": 968 },
+      "1830": {
+        "pid": 1830,
+        "name": "gsd-a11y-settin",
+        "parent_id": 1125,
+        "memory": 6540
+      },
+      "1831": {
+        "pid": 1831,
+        "name": "gsd-color",
+        "parent_id": 1125,
+        "memory": 28696
+      },
+      "1833": {
+        "pid": 1833,
+        "name": "gsd-datetime",
+        "parent_id": 1125,
+        "memory": 16068
+      },
+      "1837": {
+        "pid": 1837,
+        "name": "gsd-housekeepin",
+        "parent_id": 1125,
+        "memory": 7384
+      },
+      "1838": {
+        "pid": 1838,
+        "name": "gsd-keyboard",
+        "parent_id": 1125,
+        "memory": 24336
+      },
+      "1841": {
+        "pid": 1841,
+        "name": "gsd-media-keys",
+        "parent_id": 1125,
+        "memory": 29240
+      },
+      "1843": {
+        "pid": 1843,
+        "name": "gsd-power",
+        "parent_id": 1125,
+        "memory": 29936
+      },
+      "1847": {
+        "pid": 1847,
+        "name": "gsd-print-notif",
+        "parent_id": 1125,
+        "memory": 11368
+      },
+      "1848": {
+        "pid": 1848,
+        "name": "gsd-rfkill",
+        "parent_id": 1125,
+        "memory": 6496
+      },
+      "1849": {
+        "pid": 1849,
+        "name": "gsd-screensaver",
+        "parent_id": 1125,
+        "memory": 5344
+      },
+      "1850": {
+        "pid": 1850,
+        "name": "gsd-sharing",
+        "parent_id": 1125,
+        "memory": 10452
+      },
+      "1853": {
+        "pid": 1853,
+        "name": "gsd-smartcard",
+        "parent_id": 1125,
+        "memory": 7828
+      },
+      "1854": {
+        "pid": 1854,
+        "name": "gsd-sound",
+        "parent_id": 1125,
+        "memory": 9192
+      },
+      "1856": {
+        "pid": 1856,
+        "name": "gsd-wacom",
+        "parent_id": 1125,
+        "memory": 24824
+      },
+      "1857": {
+        "pid": 1857,
+        "name": "gsd-xsettings",
+        "parent_id": 1125,
+        "memory": 26864
+      },
+      "1918": {
+        "pid": 1918,
+        "name": "ibus-x11",
+        "parent_id": 1125,
+        "memory": 24856
+      },
+      "1934": {
+        "pid": 1934,
+        "name": "ibus-portal",
+        "parent_id": 1125,
+        "memory": 7512
+      },
+      "1949": {
+        "pid": 1949,
+        "name": "snap-store",
+        "parent_id": 1125,
+        "memory": 178084
+      },
+      "2013": {
+        "pid": 2013,
+        "name": "gsd-printer",
+        "parent_id": 1125,
+        "memory": 13768
+      },
+      "2036": {
+        "pid": 2036,
+        "name": "snapd-desktop-i",
+        "parent_id": 1125,
+        "memory": 2212
+      },
+      "2099": { "pid": 2099, "name": "gjs", "parent_id": 1125, "memory": 26728 },
+      "2262": {
+        "pid": 2262,
+        "name": "xdg-desktop-por",
+        "parent_id": 1125,
+        "memory": 24740
+      },
+      "2644": {
+        "pid": 2644,
+        "name": "chrome_crashpad",
+        "parent_id": 1125,
+        "memory": 3356
+      },
+      "2646": {
+        "pid": 2646,
+        "name": "chrome_crashpad",
+        "parent_id": 1125,
+        "memory": 3112
+      },
+      "13712": {
+        "pid": 13712,
+        "name": "gnome-terminal-",
+        "parent_id": 1125,
+        "memory": 55156
+      },
+      "13765": {
+        "pid": 13765,
+        "name": "chrome_crashpad",
+        "parent_id": 1125,
+        "memory": 3116
+      },
+      "19951": {
+        "pid": 19951,
+        "name": "gedit",
+        "parent_id": 1125,
+        "memory": 60812
+      },
+      "25501": {
+        "pid": 25501,
+        "name": "nautilus",
+        "parent_id": 1125,
+        "memory": 73396
+      }
+    },
+    "1207": {
+      "1217": {
+        "pid": 1217,
+        "name": "Xorg",
+        "parent_id": 1207,
+        "memory": 150096
+      },
+      "1377": {
+        "pid": 1377,
+        "name": "gnome-session-b",
+        "parent_id": 1207,
+        "memory": 15456
+      }
+    },
+    "1221": {
+      "1236": {
+        "pid": 1236,
+        "name": "fusermount3",
+        "parent_id": 1221,
+        "memory": 1008
+      }
+    },
+    "1222": {
+      "1761": {
+        "pid": 1761,
+        "name": "gvfsd-trash",
+        "parent_id": 1222,
+        "memory": 8688
+      },
+      "15322": {
+        "pid": 15322,
+        "name": "gvfsd-http",
+        "parent_id": 1222,
+        "memory": 11712
+      },
+      "24180": {
+        "pid": 24180,
+        "name": "gvfsd-network",
+        "parent_id": 1222,
+        "memory": 8720
+      },
+      "24208": {
+        "pid": 24208,
+        "name": "gvfsd-dnssd",
+        "parent_id": 1222,
+        "memory": 8792
+      }
+    },
+    "1497": {
+      "1503": {
+        "pid": 1503,
+        "name": "dbus-daemon",
+        "parent_id": 1497,
+        "memory": 4164
+      }
+    },
+    "1531": {
+      "1889": {
+        "pid": 1889,
+        "name": "evolution-alarm",
+        "parent_id": 1531,
+        "memory": 68524
+      },
+      "1891": {
+        "pid": 1891,
+        "name": "gsd-disk-utilit",
+        "parent_id": 1531,
+        "memory": 6696
+      },
+      "3169": {
+        "pid": 3169,
+        "name": "update-notifier",
+        "parent_id": 1531,
+        "memory": 45324
+      }
+    },
+    "1554": {
+      "2635": {
+        "pid": 2635,
+        "name": "chrome",
+        "parent_id": 1554,
+        "memory": 470180
+      },
+      "9943": {
+        "pid": 9943,
+        "name": "whatsapp-for-li",
+        "parent_id": 1554,
+        "memory": 86080
+      },
+      "13744": {
+        "pid": 13744,
+        "name": "code",
+        "parent_id": 1554,
+        "memory": 135848
+      },
+      "16935": {
+        "pid": 16935,
+        "name": "gnome-system-mo",
+        "parent_id": 1554,
+        "memory": 58572
+      },
+      "23853": { "pid": 23853, "name": "gjs", "parent_id": 1554, "memory": 60064 }
+    },
+    "1829": {
+      "1836": {
+        "pid": 1836,
+        "name": "ibus-daemon",
+        "parent_id": 1829,
+        "memory": 11904
+      }
+    },
+    "1836": {
+      "1904": {
+        "pid": 1904,
+        "name": "ibus-memconf",
+        "parent_id": 1836,
+        "memory": 7356
+      },
+      "1905": {
+        "pid": 1905,
+        "name": "ibus-extension-",
+        "parent_id": 1836,
+        "memory": 42432
+      },
+      "2160": {
+        "pid": 2160,
+        "name": "ibus-engine-sim",
+        "parent_id": 1836,
+        "memory": 7612
+      }
+    },
+    "2036": {
+      "2178": {
+        "pid": 2178,
+        "name": "snapd-desktop-i",
+        "parent_id": 2036,
+        "memory": 15948
+      }
+    },
+    "2635": {
+      "2641": { "pid": 2641, "name": "cat", "parent_id": 2635, "memory": 1000 },
+      "2642": { "pid": 2642, "name": "cat", "parent_id": 2635, "memory": 1000 },
+      "2652": {
+        "pid": 2652,
+        "name": "chrome",
+        "parent_id": 2635,
+        "memory": 58576
+      },
+      "2653": {
+        "pid": 2653,
+        "name": "chrome",
+        "parent_id": 2635,
+        "memory": 58604
+      },
+      "2685": {
+        "pid": 2685,
+        "name": "chrome",
+        "parent_id": 2635,
+        "memory": 132432
+      },
+      "2929": {
+        "pid": 2929,
+        "name": "chrome",
+        "parent_id": 2635,
+        "memory": 75004
+      }
+    },
+    "2652": {
+      "2683": {
+        "pid": 2683,
+        "name": "chrome",
+        "parent_id": 2652,
+        "memory": 235400
+      }
+    },
+    "2653": {
+      "2654": {
+        "pid": 2654,
+        "name": "nacl_helper",
+        "parent_id": 2653,
+        "memory": 4288
+      },
+      "2657": {
+        "pid": 2657,
+        "name": "chrome",
+        "parent_id": 2653,
+        "memory": 15996
+      }
+    },
+    "2657": {
+      "2696": {
+        "pid": 2696,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 53412
+      },
+      "2804": {
+        "pid": 2804,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 93000
+      },
+      "2813": {
+        "pid": 2813,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 104660
+      },
+      "2822": {
+        "pid": 2822,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 344100
+      },
+      "2841": {
+        "pid": 2841,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 136072
+      },
+      "2870": {
+        "pid": 2870,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 122276
+      },
+      "2878": {
+        "pid": 2878,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 123016
+      },
+      "2879": {
+        "pid": 2879,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 126772
+      },
+      "2899": {
+        "pid": 2899,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 105204
+      },
+      "9280": {
+        "pid": 9280,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 189832
+      },
+      "9876": {
+        "pid": 9876,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 417516
+      },
+      "13309": {
+        "pid": 13309,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 252472
+      },
+      "13403": {
+        "pid": 13403,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 169036
+      },
+      "13445": {
+        "pid": 13445,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 143616
+      },
+      "13490": {
+        "pid": 13490,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 537720
+      },
+      "17290": {
+        "pid": 17290,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 234432
+      },
+      "17363": {
+        "pid": 17363,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 161012
+      },
+      "18887": {
+        "pid": 18887,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 238028
+      },
+      "19041": {
+        "pid": 19041,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 137948
+      },
+      "19116": {
+        "pid": 19116,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 177816
+      },
+      "20172": {
+        "pid": 20172,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 296004
+      },
+      "20403": {
+        "pid": 20403,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 104928
+      },
+      "21599": {
+        "pid": 21599,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 210004
+      },
+      "21670": {
+        "pid": 21670,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 201376
+      },
+      "21735": {
+        "pid": 21735,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 163756
+      },
+      "21757": {
+        "pid": 21757,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 152780
+      },
+      "22030": {
+        "pid": 22030,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 216608
+      },
+      "23051": {
+        "pid": 23051,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 200412
+      },
+      "23073": {
+        "pid": 23073,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 170356
+      },
+      "23088": {
+        "pid": 23088,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 156652
+      },
+      "23098": {
+        "pid": 23098,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 177276
+      },
+      "23216": {
+        "pid": 23216,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 212836
+      },
+      "23346": {
+        "pid": 23346,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 225044
+      },
+      "23398": {
+        "pid": 23398,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 223928
+      },
+      "23453": {
+        "pid": 23453,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 231820
+      },
+      "23549": {
+        "pid": 23549,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 170080
+      },
+      "24091": {
+        "pid": 24091,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 168768
+      },
+      "24306": {
+        "pid": 24306,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 223096
+      },
+      "24486": {
+        "pid": 24486,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 197140
+      },
+      "25560": {
+        "pid": 25560,
+        "name": "chrome",
+        "parent_id": 2657,
+        "memory": 68988
+      }
+    },
+    "9943": {
+      "10043": { "pid": 10043, "name": "sh", "parent_id": 9943, "memory": 424 },
+      "10054": {
+        "pid": 10054,
+        "name": "WebKitNetworkPr",
+        "parent_id": 9943,
+        "memory": 80696
+      },
+      "10055": {
+        "pid": 10055,
+        "name": "WebKitWebProces",
+        "parent_id": 9943,
+        "memory": 929760
+      }
+    },
+    "10043": {
+      "10044": {
+        "pid": 10044,
+        "name": "logger",
+        "parent_id": 10043,
+        "memory": 2108
+      }
+    },
+    "13712": {
+      "13735": {
+        "pid": 13735,
+        "name": "bash",
+        "parent_id": 13712,
+        "memory": 4212
+      }
+    },
+    "13744": {
+      "13748": {
+        "pid": 13748,
+        "name": "code",
+        "parent_id": 13744,
+        "memory": 29508
+      },
+      "13749": {
+        "pid": 13749,
+        "name": "code",
+        "parent_id": 13744,
+        "memory": 28772
+      },
+      "13796": {
+        "pid": 13796,
+        "name": "code",
+        "parent_id": 13744,
+        "memory": 46788
+      },
+      "13860": {
+        "pid": 13860,
+        "name": "code",
+        "parent_id": 13744,
+        "memory": 328092
+      },
+      "13871": {
+        "pid": 13871,
+        "name": "code",
+        "parent_id": 13744,
+        "memory": 77336
+      },
+      "13872": {
+        "pid": 13872,
+        "name": "code",
+        "parent_id": 13744,
+        "memory": 67368
+      }
+    },
+    "13748": {
+      "13779": {
+        "pid": 13779,
+        "name": "code",
+        "parent_id": 13748,
+        "memory": 141624
+      }
+    },
+    "13749": {
+      "13751": {
+        "pid": 13751,
+        "name": "code",
+        "parent_id": 13749,
+        "memory": 10612
+      }
+    },
+    "13751": {
+      "13821": {
+        "pid": 13821,
+        "name": "code",
+        "parent_id": 13751,
+        "memory": 294412
+      }
+    },
+    "13860": {
+      "13935": {
+        "pid": 13935,
+        "name": "rust-analyzer",
+        "parent_id": 13860,
+        "memory": 978916
+      },
+      "14018": {
+        "pid": 14018,
+        "name": "code",
+        "parent_id": 13860,
+        "memory": 57136
+      },
+      "14162": {
+        "pid": 14162,
+        "name": "code",
+        "parent_id": 13860,
+        "memory": 53416
+      },
+      "15551": {
+        "pid": 15551,
+        "name": "code",
+        "parent_id": 13860,
+        "memory": 94688
+      },
+      "15552": {
+        "pid": 15552,
+        "name": "code",
+        "parent_id": 13860,
+        "memory": 183944
+      },
+      "15574": {
+        "pid": 15574,
+        "name": "code",
+        "parent_id": 13860,
+        "memory": 80616
+      },
+      "25472": {
+        "pid": 25472,
+        "name": "code",
+        "parent_id": 13860,
+        "memory": 98644
+      }
+    },
+    "13871": {
+      "13906": {
+        "pid": 13906,
+        "name": "code",
+        "parent_id": 13871,
+        "memory": 63336
+      }
+    },
+    "13906": {
+      "14090": {
+        "pid": 14090,
+        "name": "bash",
+        "parent_id": 13906,
+        "memory": 4376
+      },
+      "15173": {
+        "pid": 15173,
+        "name": "bash",
+        "parent_id": 13906,
+        "memory": 5272
+      },
+      "25904": {
+        "pid": 25904,
+        "name": "bash",
+        "parent_id": 13906,
+        "memory": 5788
+      }
+    },
+    "13935": {
+      "14014": {
+        "pid": 14014,
+        "name": "rust-analyzer-p",
+        "parent_id": 13935,
+        "memory": 8208
+      }
+    },
+    "14090": {
+      "14803": {
+        "pid": 14803,
+        "name": "astrix",
+        "parent_id": 14090,
+        "memory": 18820
+      }
+    },
+    "15173": {
+      "25188": {
+        "pid": 25188,
+        "name": "npm",
+        "parent_id": 15173,
+        "memory": 45312
+      }
+    },
+    "15552": {
+      "15576": {
+        "pid": 15576,
+        "name": "code",
+        "parent_id": 15552,
+        "memory": 70032
+      }
+    },
+    "25188": {
+      "25199": { "pid": 25199, "name": "sh", "parent_id": 25188, "memory": 976 }
+    },
+    "25199": {
+      "25200": {
+        "pid": 25200,
+        "name": "node",
+        "parent_id": 25199,
+        "memory": 35584
+      }
+    },
+    "25200": {
+      "25207": {
+        "pid": 25207,
+        "name": "node",
+        "parent_id": 25200,
+        "memory": 366368
+      }
+    },
+    "25904": {
+      "27505": {
+        "pid": 27505,
+        "name": "proctree",
+        "parent_id": 25904,
+        "memory": 2620
+      }
+    }
+  }
+  

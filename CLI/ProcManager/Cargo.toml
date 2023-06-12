@@ -1,0 +1,14 @@
+[package]
+name = "pmgr2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+procfs = "0.9.1"
+sysconf = "0.3.4"
+prettytable-rs = "0.10.0"
+csv = "1.1.6"
+ansi_term = "0.12.1"
+sysinfo = "0.28.4"
