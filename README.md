@@ -23,16 +23,16 @@
     2. Press on the 'h' button (case insensitive) to navigate back to homepage
     3. When displaying the table you can press the following buttons:
         1. 's' : to sort
-                i. use the arrow keys right and left to select the field you would like to sort on, press enter to see the results
-                ii. use 'x' to exit this option
+            1. use the arrow keys right and left to select the field you would like to sort on, press enter to see the results
+            2. use 'x' to exit this option
         2. 'e' : to search
-                i. Use the keyboard to type and press esc key to exit input entry, then press 'x' to exit this option
+            1. Use the keyboard to type and press esc key to exit input entry, then press 'x' to exit this option
         3.  'f': to filter
-                i. Use the keyboard to type and press esc key to exit input entry, then press 'x' to exit this option
+            1. Use the keyboard to type and press esc key to exit input entry, then press 'x' to exit this option
         4. 't': to terminate
-                i. use 'x' to exit this option
-            e. 'p' : to set priority 
-        5. Press 'q' button to exit the program
+            1.  use 'x' to exit this option
+        5. 'p' : to set priority 
+        6. Press 'q' button to exit the program
 
 
 
