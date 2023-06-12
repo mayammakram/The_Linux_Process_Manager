@@ -19,20 +19,20 @@
 2. Run the command "cargo run".
 
     To move around the TUI:
-        1. Press on the 'd' button (case insensitive) to display the table of processes
-        2. Press on the 'h' button (case insensitive) to navigate back to homepage
-        3. When displaying the table you can press the following buttons:
-            a. 's' : to sort
+    1. Press on the 'd' button (case insensitive) to display the table of processes
+    2. Press on the 'h' button (case insensitive) to navigate back to homepage
+    3. When displaying the table you can press the following buttons:
+        1. 's' : to sort
                 i. use the arrow keys right and left to select the field you would like to sort on, press enter to see the results
                 ii. use 'x' to exit this option
-            b. 'e' : to search
+        2. 'e' : to search
                 i. Use the keyboard to type and press esc key to exit input entry, then press 'x' to exit this option
-            c. 'f': to filter
+        3.  'f': to filter
                 i. Use the keyboard to type and press esc key to exit input entry, then press 'x' to exit this option
-            d. 't': to terminate
+        4. 't': to terminate
                 i. use 'x' to exit this option
             e. 'p' : to set priority 
-        4. Press 'q' button to exit the program
+        5. Press 'q' button to exit the program
 
 
 
